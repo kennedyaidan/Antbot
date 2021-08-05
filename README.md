@@ -1,6 +1,4 @@
-#This is working copy of "Trog" Folder (copied on 061421), updated by Aidan Kennedy
-
-
+#This is an updated respository of Trog, an autonomous robot part of CAEV at UCLA.
 
 
 # Trog
