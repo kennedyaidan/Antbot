@@ -1,0 +1,25 @@
+<launch>
+    <arg name="teleop" default="false"/>
+    <arg name="create_map" default="true"/>
+    <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
+    <arg name="use_move_base" default="false"/>
+
+    <!-- Start control nodes -->
+    <node if="$(arg teleop)" name="teleop_twist" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
+ 	<remap from="cmd_vel" to="/trog_velocity_controller/cmd_vel"/> 
+    </node>
+    <include file="$(find trog_control)/launch/control.launch"/>
+
+    <!-- Start sensors nodes -->
+    <include file="$(find trog_sensors)/launch/sensors.launch"/>
+
+    <!-- Create or Load Map -->
+    <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)"/>
+    <include file="$(find trog_mapping)/launch/known_map.launch" unless="$(arg create_map)">
+      <arg name="map_name" value="$(arg map_name)"/>
+    </include>
+    
+    <!-- Move Base -->
+    <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)"/>
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+</launch>

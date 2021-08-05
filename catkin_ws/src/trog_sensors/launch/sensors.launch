@@ -1,0 +1,13 @@
+<launch>
+    <!-- Velodyne VLP-16 LiDAR -->
+    <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch">
+      <arg name="min_range" value="0.2"/>
+     </include>
+    <node pkg="tf" type="static_transform_publisher" name="laser_to_base"
+    	  args="0 0 0.7 0 0 0 1 /base_link /laser 50"/>
+
+    <!-- IMU -->
+
+    <!--USB CAM-->
+    <!-- removed USB camera-->
+</launch>

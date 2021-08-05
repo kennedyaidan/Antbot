@@ -1,0 +1,8 @@
+prefix=/home/smerc/AntBot/catkin_ws/install
+
+Name: plate_reader
+Description: Description of plate_reader
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lplate_reader
+Requires: 

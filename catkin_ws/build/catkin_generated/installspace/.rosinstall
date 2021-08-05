@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/smerc/AntBot/catkin_ws/install/setup.sh

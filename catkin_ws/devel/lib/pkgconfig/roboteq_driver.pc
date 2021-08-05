@@ -1,0 +1,8 @@
+prefix=/home/smerc/AntBot/catkin_ws/devel
+
+Name: roboteq_driver
+Description: Description of roboteq_driver
+Version: 0.2.0
+Cflags: -I/home/smerc/AntBot/catkin_ws/src/roboteq/roboteq_driver/include
+Libs: -L${prefix}/lib -lroboteq_controller
+Requires: roboteq_msgs roscpp serial

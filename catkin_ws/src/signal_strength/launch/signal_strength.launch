@@ -1,0 +1,3 @@
+<launch>
+  <node name="signal_strength" pkg="signal_strength" type="signal_strength_airodump.py" output="screen"></node>
+</launch>

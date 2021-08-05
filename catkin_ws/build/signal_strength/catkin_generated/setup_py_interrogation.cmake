@@ -1,0 +1,7 @@
+set(signal_strength_SETUP_PY_SETUP_MODULE "distutils.core")
+set(signal_strength_SETUP_PY_VERSION "2.0.0")
+set(signal_strength_SETUP_PY_SCRIPTS "")
+set(signal_strength_SETUP_PY_PACKAGES "<signal_strength>")
+set(signal_strength_SETUP_PY_PACKAGE_DIRS "include/<signal_strength>")
+set(signal_strength_SETUP_PY_MODULES "")
+set(signal_strength_SETUP_PY_MODULE_DIRS "")

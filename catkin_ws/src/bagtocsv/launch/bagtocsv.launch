@@ -1,0 +1,3 @@
+<launch>
+  <node name="bagtocsv" pkg="bagtocsv" type="csvgen.py" output="screen"></node>
+</launch>

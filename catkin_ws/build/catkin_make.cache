@@ -1,0 +1,2 @@
+bagtocsv:plate_reader:roboteq/roboteq_diagnostics:roboteq/roboteq_driver:roboteq/roboteq_msgs:signal_strength:trog_2dnav:trog_bringup:trog_control:trog_description:trog_mapping:trog_sensors
+-DCATKIN_DEVEL_PREFIX=/home/smerc/AntBot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/smerc/AntBot/catkin_ws/install -G Unix Makefiles
