@@ -29,20 +29,20 @@
     acc_lim_x: 8.0
 
     max_vel_x: 1.8
-    max_rot_vel: 2.0
+    max_vel_theta: 2.0
 
     acc_lim_y: 0.0
-    acc_limit_trans: 0.1
+    acc_lim_trans: 0.1
     angular_sim_granularity: 0.1
     forward_point_distance: 0.325
     goal_distance_bias: 9.0
     holonomic_robot: false
     latch_xy_goal_tolerance: true
     max_scaling_factor: 0.2
-    max_trans_vel: 0.55
+    max_vel_trans: 0.55
     max_vel_y: 0.0
-    min_rot_vel: 0.2
-    min_trans_vel: 0.0
+    min_vel_theta: 0.2
+    min_vel_trans: 0.0
     min_vel_x: 0.0
     min_vel_y: 0.0
     occdist_scale: 0.01
@@ -51,7 +51,7 @@
     path_distance_bias: 5.0
     prune_plan: true
     restore_defaults: false
-    rot_stopped_vel: 0.1
+    theta_stopped_vel: 0.1
     scaling_speed: 0.25
     sim_granularity: 0.025
     sim_time: 1.7
