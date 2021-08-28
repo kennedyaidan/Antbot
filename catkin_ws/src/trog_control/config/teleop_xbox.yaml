@@ -1,0 +1,37 @@
+#Teleop_params for xbox one controller 
+#
+#         (LB)                                 (RB)
+#         (LT)                                 (RT)
+#       _=====_                               _=====_
+#      / _____ \                             / _____ \
+#    +.-'_____'-.---------------------------.-'_____'-.+
+#   /            '.                       .'  |      |   \
+#  /              \ (back)(Lgtc)(strt)  / ___| (Y)  |___ \
+# /               | ;  __           __  ; |              | |
+# |       J1      | | (__) .       (__) | | (X)       (B)| |
+# |               | ; MODE         VIBE ; |___       ____| /
+# |\              /-----\            _   \    | (A) |    /|
+# | \            .',   /|\        /     \      |_____|  .' |
+# |  '-.______.-' /          \   /       \  '-._____.-'   |
+# |               |<-- D1-->    |   J2   |                |
+# |              /\   \|/    /  \       /\               |
+# |             /  '. ___ .'     '.___.'  \              |
+# |            /                           \             |
+#  \          /                             \           /
+#   \________/                               \_________/
+#
+
+
+
+teleop_twist_joy:
+  axis_linear: 1
+  scale_linear: 0.4
+  scale_linear_turbo: 2.0
+  axis_angular: 0
+  scale_angular: 1.4
+  enable_button: 4
+  enable_turbo_button: 5
+joy_node:
+  deadzone: 0.1
+  autorepeat_rate: 10
+  dev: /dev/input/js0
