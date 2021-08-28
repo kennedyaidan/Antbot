@@ -1,8 +1,11 @@
+<?xml version="1.0"?>
 <launch>
   <arg name="robot_namespace" default="/"/>
+  <arg name="laser_enabled" default="$(optenv ANTBOT_LIDAR_ENABLED true)"/>
 
   <param name="robot_description" command="$(find xacro)/xacro '$(find trog_description)/urdf/troggie.urdf.xacro'
     --inorder
     robot_namespace:=$(arg robot_namespace)
+    laser_enabled:=$(arg laser_enabled)
     " />
-</launch>
+</launche

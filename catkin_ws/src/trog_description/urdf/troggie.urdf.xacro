@@ -1,11 +1,23 @@
 <?xml version="1.0"?>
 <robot name="trog" xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- General Arguements -->
   <xacro:arg name="robot_namespace" default="/" />
   <xacro:arg name="urdf_extras" default="empty.urdf" />
-
+  <xacro:arg name="laser_enabled" default="true" />
+  <xacro:arg name="gpu" default="false"/>
+  <xacro:property name="gpu" value="$(arg gpu)" />
+  <xacro:arg name="organize_cloud" default="false"/>
+  <xacro:property name="organize_cloud" value="$(arg organize_cloud)" />
   <xacro:property name="M_PI" value="3.14159"/>
-
+  
+  <!-- Included URDF/XACRO Files -->
+  <xacro:include filename="$(find trog_description)/urdf/decorations.urdf.xacro" />
+  <xacro:include filename="$(find trog_description)/urdf/wheel.urdf.xacro" />
+  
+  <!-- Included velodyne lidar -->
+  <xacro:include filename="$(find velodyne_description)/urdf/VLP_16.urdf.xacro"/>
+  
   <!-- Base Size -->
   <xacro:property name="base_x_size" value="0.48260000" />
   <xacro:property name="base_y_size" value="0.35560000" />
@@ -14,19 +26,20 @@
   <!-- Wheel Mounting Positions -->
   <xacro:property name="wheelbase" value="0.4064" />
   <xacro:property name="track" value="0.4826" />
-  <xacro:property name="wheel_vertical_offset" value="0.127" />
+  <xacro:property name="wheel_vertical_offset" value="0.127" /> <!--MAY NEED TO ADJUST VERTICAL OFFSET -->
 
   <!-- Wheel Properties -->
   <xacro:property name="wheel_length" value="0.0762" />
   <xacro:property name="wheel_radius" value="0.127" />
-
-  <xacro:include filename="$(find trog_description)/urdf/wheel.urdf.xacro" />
 
 
   <!-- Base link is the center of the robot's bottom plate -->
   <link name="base_link">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://trog_description/meshes/base_link.dae" />
+      </geometry>
     </visual>
     <collision>
       <origin xyz="${20 / 200.0} 0 ${base_z_size/4}" rpy="0 0 0" />
@@ -35,7 +48,7 @@
       </geometry>
     </collision>
     <collision>
-      <origin xyz="0 0 ${base_z_size*3/4}" rpy="0 0 0" />
+      <origin xyz="0 0 ${base_z_size*3/4-0.01}" rpy="0 0 0" />
       <geometry>
         <box size="${base_x_size*4/5} ${base_y_size} ${base_z_size/2}"/>
       </geometry>
@@ -50,20 +63,21 @@
     <child link="base_footprint" />
   </joint>
 
-  <!-- Interial link stores the robot's inertial information -->
-  <!-- <link name="inertial_link">
+  <!-- Inertial link stores the robot's inertial information -->
+  <link name="inertial_link">
     <inertial>
-      <mass value="46.034" />
+      <mass value="50" />
       <origin xyz="-0.00065 -0.085 0.062" />
       <inertia ixx="0.6022" ixy="-0.02364" ixz="-0.1197" iyy="1.7386" iyz="-0.001544" izz="2.0296" />
     </inertial>
-  </link> -->
+  </link>
 
-  <!-- <joint name="inertial_joint" type="fixed">
+  <joint name="inertial_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0" />
     <parent link="base_link" />
     <child link="inertial_link" />
-  </joint> -->
+  </joint>
+
 
   <!-- IMU Link is the standard mounting position for the UM6 IMU.-->
   <!-- Can be modified with environment variables in /etc/ros/setup.bash -->
@@ -76,7 +90,7 @@
   <gazebo reference="imu_link">
   </gazebo> -->
 
-  <!-- Husky wheel macros -->
+  <!-- Antbot wheel macros -->
   <xacro:trog_wheel wheel_prefix="front_left">
     <origin xyz="${wheelbase/2} ${track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:trog_wheel>
@@ -90,19 +104,27 @@
     <origin xyz="${-wheelbase/2} ${-track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:trog_wheel>
 
-  <!-- <xacro:if value="$(arg laser_enabled)">
 
-    <sick_lms1xx_mount prefix="base"/>
+  <!-- Velodyne Lidar -->
+  <xacro:if value="$(arg laser_enabled)">
+  <xacro:VLP_16 parent="base_link" name="velodyne" topic="/velodyne_points" organize_cloud="${organize_cloud}" hz="10" samples="440" gpu="${gpu}">
+  <origin xyz="0.26 0 0.25" rpy="0 0 0" /> <!-- NEED TO FIND CORRECT POSITION -->
+  </xacro:VLP_16>
+  </xacro:if>
+  
+  
+  <!-- Decorations -->
+  <xacro:Antbot_decorate />
 
-    <sick_lms1xx frame="base_laser" topic="scan" robot_namespace="$(arg robot_namespace)"/>
+  <!-- Gazebo Plugins -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>$(arg robot_namespace)</robotNamespace>
+      <legacyModeNS>true</legacyModeNS>
+    </plugin>
+  </gazebo>
 
-    <joint name="laser_mount_joint" type="fixed">
-      <origin xyz="$(arg laser_xyz)" rpy="$(arg laser_rpy)" />
-      <parent link="top_plate_link" />
-      <child link="base_laser_mount" />
-    </joint>
 
-  </xacro:if> -->
 <!-- 
   <gazebo>
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
@@ -140,4 +162,8 @@
       <drift>0.0001 0.0001 0.0001</drift>
     </plugin>
   </gazebo> -->
+  
+  
+  <!-- Optional custom includes. -->
+  <xacro:include filename="$(arg urdf_extras)" />
 </robot>
