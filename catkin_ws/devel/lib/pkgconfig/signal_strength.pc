@@ -1,8 +1,0 @@
-prefix=/home/smerc/AntBot/catkin_ws/devel
-
-Name: signal_strength
-Description: Description of signal_strength
-Version: 2.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

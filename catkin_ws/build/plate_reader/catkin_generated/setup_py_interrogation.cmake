@@ -1,7 +1,0 @@
-set(plate_reader_SETUP_PY_SETUP_MODULE "distutils.core")
-set(plate_reader_SETUP_PY_VERSION "0.0.0")
-set(plate_reader_SETUP_PY_SCRIPTS "")
-set(plate_reader_SETUP_PY_PACKAGES "plate_reader")
-set(plate_reader_SETUP_PY_PACKAGE_DIRS "src/plate_reader")
-set(plate_reader_SETUP_PY_MODULES "")
-set(plate_reader_SETUP_PY_MODULE_DIRS "")

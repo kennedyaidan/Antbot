@@ -8,4 +8,4 @@
     robot_namespace:=$(arg robot_namespace)
     laser_enabled:=$(arg laser_enabled)
     " />
-</launche
+</launch>

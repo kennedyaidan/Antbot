@@ -1,8 +1,0 @@
-prefix=/home/smerc/AntBot/catkin_ws/devel
-
-Name: bagtocsv
-Description: Description of bagtocsv
-Version: 2.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
