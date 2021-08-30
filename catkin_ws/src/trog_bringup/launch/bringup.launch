@@ -1,13 +1,33 @@
+<?xml version="1.0"?>
 <launch>
+    <arg name="joy_dev" default="$(optenv ANTBOT_JOY_DEVICE /dev/input/js0)" />
+    <arg name="xbox" default="true" />
     <arg name="teleop" default="false"/>
     <arg name="create_map" default="true"/>
     <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
     <arg name="use_move_base" default="false"/>
 
-    <!-- Start control nodes -->
-    <node if="$(arg teleop)" name="teleop_twist" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
- 	<remap from="cmd_vel" to="/trog_velocity_controller/cmd_vel"/> 
-    </node>
+
+   <!-- Start teleop node (Xbox Controller/Keyboard) -->
+   <group if="$(eval arg('xbox')==1)" ns="joy_teleop">
+      <group if="$(eval arg('teleop')==1)" >
+         <rosparam command="load" file="$(find trog_control)/config/teleop_xbox.yaml" />
+      </group>
+      <node pkg="joy" type="joy_node" name="joy_node" />
+      <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy">
+         <remap from="/joy_teleop/cmd_vel" to="/trog_velocity_controller/cmd_vel"/>
+      </node>
+   </group>
+
+   <group if="$(eval arg('xbox')==0)" ns="keyboard_teleop">
+      <group if="$(eval arg('teleop')==1)" >
+         <node if="$(arg teleop)" name="teleop_twist" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
+ 	 <remap from="cmd_vel" to="/trog_velocity_controller/cmd_vel"/> 
+         </node>
+      </group>
+   </group>
+
+    <!-- Start control node -->
     <include file="$(find trog_control)/launch/control.launch"/>
 
     <!-- Start sensors nodes -->

@@ -24,13 +24,14 @@
 
 
 teleop_twist_joy:
-  axis_linear: 1
+  axis_linear: 0
   scale_linear: 0.4
   scale_linear_turbo: 2.0
-  axis_angular: 0
-  scale_angular: 1.4
-  enable_button: 4
-  enable_turbo_button: 5
+  axis_angular: 1
+  scale_angular: -1.4
+  scale_angular_turbo: -2.4
+  enable_button: 6
+  enable_turbo_button: 7
 joy_node:
   deadzone: 0.1
   autorepeat_rate: 10
