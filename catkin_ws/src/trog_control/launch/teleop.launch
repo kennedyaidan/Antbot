@@ -6,7 +6,7 @@
 
   <group ns="joy_teleop">
 
-    <group if="$(eval arg('joystick')==1" >
+    <group if="$(eval arg('joystick')==1)" >
       <rosparam command="load" file="$(find husky_control)/config/teleop_xbox.yaml" />
     </group>
 
