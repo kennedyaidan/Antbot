@@ -21,12 +21,12 @@
   <!-- Base Size -->
   <xacro:property name="base_x_size" value="0.48260000" />
   <xacro:property name="base_y_size" value="0.35560000" />
-  <xacro:property name="base_z_size" value="0.49530000" />
+  <xacro:property name="base_z_size" value="0.49630000" />
 
   <!-- Wheel Mounting Positions -->
   <xacro:property name="wheelbase" value="0.4064" />
   <xacro:property name="track" value="0.4826" />
-  <xacro:property name="wheel_vertical_offset" value="0.127" /> <!--MAY NEED TO ADJUST VERTICAL OFFSET -->
+  <xacro:property name="wheel_vertical_offset" value="0.03" /> <!--MAY NEED TO ADJUST VERTICAL OFFSET -->
 
   <!-- Wheel Properties -->
   <xacro:property name="wheel_length" value="0.0762" />

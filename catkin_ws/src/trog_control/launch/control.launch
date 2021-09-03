@@ -15,8 +15,20 @@
       	    <rosparam command="load" file="$(find trog_control)/config/localization.yaml"/>
       </node>
 
-      <!-- Start control loop and motor controller driver -->
+      <!-- Start control loop and motor controller driver
       <include file="$(find roboteq_driver)/launch/roboteq.launch" /> 
       <node name="trog_control_node" pkg="trog_control" type="trog_control_node"/>
+      -->
+      
+      <!-- Twist mux -->      
+      <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" output="screen">
+         <param name="link_name" value="base_link" />
+      </node>
+      <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+      <node pkg="twist_mux" type="twist_mux" name="twist_mux">
+         <rosparam command="load" file="$(find trog_control)/config/twist_mux.yaml" />
+         <remap from="cmd_vel_out" to="trog_velocity_controller/cmd_vel"/>
+      </node>
+
 
 </launch>

@@ -12,9 +12,7 @@
 
     <node pkg="joy" type="joy_node" name="joy_node" />
 
-    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy">
-    <remap from="/joy_teleop/cmd_vel" to="/trog_velocity_controller/cmd_vel" />
-    </node>
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy"/>
   </group>
 
 </launch>
