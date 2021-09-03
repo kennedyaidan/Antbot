@@ -42,16 +42,14 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <arg name="joystick" default="true" />
   <arg name="rviz" default="true"/>
 
-  <!-- Control and Teleop node -->
-  <group ns="$(arg robot_namespace)">
-    <group>
-      <include file="$(find trog_control)/launch/control.launch">
-      </include>
-      <include file="$(find trog_control)/launch/teleop.launch">
-        <arg name="joystick" value="$(arg joystick)" />
-      </include>
-    </group>
 
+
+    <!-- Control and Teleop node -->
+    <group ns="$(arg robot_namespace)">
+      <group>
+        <include file="$(find trog_control)/launch/control.launch">
+        </include>
+      </group>
 
     <!-- Spawn robot in gazebo -->
     <node name="spawn_Antbot_model" pkg="gazebo_ros" type="spawn_model"
@@ -65,11 +63,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
               -model Antbot
               -robot_namespace $(arg robot_namespace)" />
               
-         
-    <!-- RVIZ -->          
-    <node if="$(arg rviz)" pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="=d $(find velodyne_description)/rviz/example.rviz" />
-  </group>
-  
-  
+    </group>
 
 </launch>
