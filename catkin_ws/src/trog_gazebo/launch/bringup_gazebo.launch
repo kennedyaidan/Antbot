@@ -6,13 +6,18 @@
     <arg name="create_map" default="true"/>
     <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
     <arg name="use_move_base" default="false"/>
-
-
+    <arg name="open_rviz" default="true"/>
 
 
 
    <!-- Start Gazebo Simulation -->
    <include file="$(find trog_gazebo)/launch/Antbot_playpen_world.launch"/>
+   
+   
+   <!-- Velodyne Pointcloud to laserscan transform -->
+   <include file="$(find trog_pc2l)/launch/pc2l.launch"/>
+
+
 
    <!-- Start teleop node (Xbox Controller/Keyboard) -->
    <group if="$(eval arg('xbox')==1)" ns="joy_teleop">
@@ -34,13 +39,27 @@
    </group>
 
 
-    <!-- Create or Load Map -->
+
+    <!-- SLAM -->
     <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)"/>
+
+
+
+    <!-- Create or Load Map -->
     <include file="$(find trog_mapping)/launch/known_map.launch" unless="$(arg create_map)">
        <arg name="map_name" value="$(arg map_name)"/>
     </include>
+
+
     
     <!-- Move Base -->
     <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)"/>
-    
+
+
+
+    <!-- rviz -->
+    <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find trog_rviz)/rviz/trog_rviz.rviz"/>
+  </group>
 </launch>
