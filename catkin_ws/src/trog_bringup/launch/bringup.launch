@@ -5,7 +5,8 @@
     <arg name="teleop" default="false"/>
     <arg name="create_map" default="true"/>
     <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
-    <arg name="use_move_base" default="false"/>
+    <arg name="use_move_base" default="true"/>
+    <arg name="open_rviz" default="true"/>
 
 
    <!-- Start teleop node (Xbox Controller/Keyboard) -->
@@ -45,4 +46,10 @@
     <!-- Move Base -->
     <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)"/>
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+    <!-- rviz -->
+    <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find trog_rviz)/rviz/trog_rviz.rviz"/>
+    </group>
 </launch>
