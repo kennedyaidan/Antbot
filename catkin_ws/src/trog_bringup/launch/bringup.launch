@@ -30,6 +30,9 @@
     <!-- Start control node -->
     <include file="$(find trog_control)/launch/control.launch"/>
 
+    <!-- Start control driver node -->
+    <include file="$(find trog_control)/launch/control_driver.launch"/>
+
     <!-- Start sensors nodes -->
     <include file="$(find trog_sensors)/launch/sensors.launch"/>
 
