@@ -13,6 +13,7 @@
       <!-- Start EKF for localization -->
       <node pkg="robot_localization" type="ekf_localization_node" name="robot_localization_ekf" clear_params="true">
       	    <rosparam command="load" file="$(find trog_control)/config/localization.yaml"/>
+            <remap from="odometry/filtered" to="odom"/>
       </node>
       
       <!-- Twist mux -->      

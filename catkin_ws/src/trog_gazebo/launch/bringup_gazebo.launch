@@ -3,6 +3,7 @@
     <arg name="joy_dev" default="$(optenv ANTBOT_JOY_DEVICE /dev/input/js0)" />
     <arg name="xbox" default="true" />
     <arg name="teleop" default="true"/>
+    <arg name="slam_methods" default="gmapping" doc="slam type [gmapping, cartographer]"/>
     <arg name="create_map" default="true"/>
     <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
     <arg name="use_move_base" default="false"/>
@@ -14,10 +15,6 @@
    <include file="$(find trog_gazebo)/launch/Antbot_playpen_world.launch"/>
    
    
-   <!-- Velodyne Pointcloud to laserscan transform -->
-   <!-- <include file="$(find trog_pc2l)/launch/pc2l.launch"/> -->
-
-
 
    <!-- Start teleop node (Xbox Controller/Keyboard) -->
    <group if="$(eval arg('xbox')==1)" ns="joy_teleop">
@@ -44,7 +41,9 @@
 
     
     <!-- SLAM -->
-    <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)"/>
+    <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)">
+       <arg name="slam_methods" value="$(arg slam_methods)"/>
+    </include>
 
 
 
