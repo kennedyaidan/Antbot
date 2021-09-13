@@ -3,7 +3,7 @@
 #include <ros/ros.h>
 
 #include "trog_control/trog_hardware.h"
-#include "roboteq_msgs/Command.h"
+/**#include "roboteq_msgs/Command.h" */
 #include "roboteq_msgs/Feedback.h"
 #include "roboteq_driver/controller.h"
 
@@ -42,7 +42,7 @@ namespace trog_control
   */
   void TrogHardware::registerControlInterfaces()
   {
-    ros::V_string joint_names = boost::assign::list_of("rear_left_wheel")("rear_right_wheel");
+    ros::V_string joint_names = boost::assign::list_of("rear_left_wheel")("rear_right_wheel")("front_left_wheel")("front_right_wheel");
     for (unsigned int i = 0; i < joint_names.size(); i++)
     {
       hardware_interface::JointStateHandle joint_state_handle(joint_names[i],

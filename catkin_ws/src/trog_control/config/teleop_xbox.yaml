@@ -28,8 +28,8 @@ teleop_twist_joy:
   scale_linear: 0.4
   scale_linear_turbo: 2.0
   axis_angular: 0
-  scale_angular: -1.4
-  scale_angular_turbo: -2.4
+  scale_angular: 1.4
+  scale_angular_turbo: 2.4
   enable_button: 6
   enable_turbo_button: 7
 joy_node:
