@@ -37,8 +37,12 @@
     <!-- Start sensors nodes -->
     <include file="$(find trog_sensors)/launch/sensors.launch"/>
 
-    <!-- Create or Load Map -->
-    <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)"/>
+    <!-- SLAM -->
+    <include file="$(find trog_mapping)/launch/slam.launch" if="$(arg create_map)">
+       <arg name="slam_methods" value="$(arg slam_methods)"/>
+    </include>
+
+    <!-- Load map -->
     <include file="$(find trog_mapping)/launch/known_map.launch" unless="$(arg create_map)">
       <arg name="map_name" value="$(arg map_name)"/>
     </include>
