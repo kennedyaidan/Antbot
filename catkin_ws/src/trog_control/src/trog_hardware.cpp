@@ -3,7 +3,7 @@
 #include <ros/ros.h>
 
 #include "trog_control/trog_hardware.h"
-/**#include "roboteq_msgs/Command.h" */
+#include "roboteq_msgs/Command.h" 
 #include "roboteq_msgs/Feedback.h"
 #include "roboteq_driver/controller.h"
 
