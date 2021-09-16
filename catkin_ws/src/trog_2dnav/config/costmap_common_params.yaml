@@ -1,6 +1,10 @@
 # Commong parameters used across global and local costmap
   footprint: [[-0.32, -0.28], [-0.32, 0.28], [0.32, 0.28], [0.32, -0.28]]
 
+  plugins:
+    - {name: static, type: "costmap_2d::StaticLayer"}
+    - {name: inflation, type: "costmap_2d::InflationLayer"}
+
   obstacle_range: 5.0
   raytrace_range: 6.0
 

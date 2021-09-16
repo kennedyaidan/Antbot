@@ -12,6 +12,7 @@
         <param name="base_local_planner" value="$(arg base_local_planner)"/>
 
         <rosparam file="$(find trog_2dnav)/config/planner.yaml" command="load" />
+        <rosparam file="$(find trog_2dnav)/config/move_base.yaml" command="load" />
 
         <rosparam file="$(find trog_2dnav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
         <rosparam file="$(find trog_2dnav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />

@@ -5,7 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Gloabl Map1/Costmap1
+        - /TF1/Frames1
+        - /Global Map1/Costmap1
       Splitter Ratio: 0.5
     Tree Height: 511
   - Class: rviz/Selection
@@ -67,7 +68,7 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 100
+      Max Intensity: 112
       Min Color: 0; 0; 0
       Min Intensity: 1
       Name: LaserScan
@@ -117,7 +118,7 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 195
+      Max Intensity: 114
       Min Color: 0; 0; 0
       Min Intensity: 0
       Name: PointCloud2
@@ -136,33 +137,37 @@ Visualization Manager:
       Enabled: true
       Frame Timeout: 15
       Frames:
-        All Enabled: true
+        All Enabled: false
         base_footprint:
-          Value: true
+          Value: false
         base_link:
-          Value: true
+          Value: false
+        front_left_wheel_link:
+          Value: false
+        front_right_wheel_link:
+          Value: false
         inertial_link:
-          Value: true
+          Value: false
         laser:
           Value: true
         map:
-          Value: true
+          Value: false
         odom:
-          Value: true
+          Value: false
         rear_left_wheel_link:
-          Value: true
+          Value: false
         rear_right_wheel_link:
-          Value: true
+          Value: false
         top_plate_front_link:
-          Value: true
+          Value: false
         top_plate_link:
-          Value: true
+          Value: false
         top_plate_rear_link:
-          Value: true
+          Value: false
         velodyne:
-          Value: true
+          Value: false
         velodyne_base_link:
-          Value: true
+          Value: false
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -173,6 +178,10 @@ Visualization Manager:
           odom:
             base_link:
               base_footprint:
+                {}
+              front_left_wheel_link:
+                {}
+              front_right_wheel_link:
                 {}
               inertial_link:
                 {}
@@ -228,7 +237,7 @@ Visualization Manager:
           Unreliable: false
           Value: true
       Enabled: true
-      Name: Gloabl Map
+      Name: Global Map
     - Class: rviz/Group
       Displays:
         - Alpha: 1
@@ -405,25 +414,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 12.855406761169434
+      Distance: 1.6298832893371582
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.15342675149440765
-        Y: 0.15066923201084137
-        Z: 0.8198361992835999
+        X: 0.07227122783660889
+        Y: 0.32563647627830505
+        Z: 0.7378340363502502
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.929796576499939
+      Pitch: 0.3097970187664032
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 6.042228698730469
+      Yaw: 1.9540412425994873
     Saved: ~
 Window Geometry:
   Displays:
@@ -441,5 +450,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1855
-  X: 65
-  Y: 69
+  X: 67
+  Y: 68
