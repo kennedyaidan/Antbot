@@ -8,6 +8,7 @@
     <arg name="map_name" unless="$(arg create_map)"/> <!-- Require map name if create_map is false-->
     <arg name="use_move_base" default="false"/>
     <arg name="open_rviz" default="true"/>
+    <arg name="base_local_planner" default="dwa_local_planner/DWAPlannerROS"/>
 
 
 
@@ -55,7 +56,8 @@
 
     
     <!-- Move Base -->
-    <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)"/>
+    <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)">
+      <arg name="base_local_planner" value="$(arg base_local_planner)"/>
 
 
 
