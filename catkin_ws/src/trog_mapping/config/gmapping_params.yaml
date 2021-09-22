@@ -1,5 +1,6 @@
 map_update_interval: 3.0
 maxUrange: 16.0
+minimumScore: 50
 sigma: 0.05
 kernelSize: 1
 lstep: 0.05
