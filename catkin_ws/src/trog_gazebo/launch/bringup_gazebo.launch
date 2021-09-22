@@ -58,6 +58,7 @@
     <!-- Move Base -->
     <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)">
       <arg name="base_local_planner" value="$(arg base_local_planner)"/>
+    </include>
 
 
 
