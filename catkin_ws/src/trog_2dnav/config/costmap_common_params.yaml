@@ -22,4 +22,4 @@
 #Inflation Layer
   inflation:
     inflation_radius: 1.75
-    cost_scaling: 2.5
+    cost_scaling_factor: 2.5
