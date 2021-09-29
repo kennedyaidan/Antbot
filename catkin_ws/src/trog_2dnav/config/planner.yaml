@@ -79,22 +79,22 @@ TebLocalPlannerROS:
   feasibility_check_no_poses: 5
   publish_feedback: False
   # Robot     
-  max_vel_x: 1.0
+  max_vel_x: 0.5
   max_vel_x_backwards: 0.15
   max_vel_y: 0.0
-  max_vel_theta: 1.0
+  max_vel_theta: 0.5
   acc_lim_x: 2.0
   acc_lim_theta: 2.0
   min_turning_radius: 0.0 
   footprint_model:
     type: "point"
   # GoalTolerance
-  xy_goal_tolerance: 0.1
-  yaw_goal_tolerance: 0.1
+  xy_goal_tolerance: 0.15
+  yaw_goal_tolerance: 0.15
   free_goal_vel: False
   complete_global_plan: True
   # Obstacles
-  min_obstacle_dist: 0.35 # This value must include robot radius, as footprint_model is "point".
+  min_obstacle_dist: 0.5 # This value must include robot radius, as footprint_model is "point".
   inflation_dist: 0.6
   include_costmap_obstacles: True
   costmap_obstacles_behind_robot_dist: 1.5
