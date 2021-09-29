@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+
+  <!-- Slam Toolbox -->
+  <node pkg="slam_toolbox" type="sync_slam_toolbox_node" name="slam_toolbox" output="screen">
+    <rosparam command="load" file="$(find trog_mapping)/config/slam_toolbox_params.yaml" />
+  </node>
+</launch>
+
+
+
