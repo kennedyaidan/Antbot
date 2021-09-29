@@ -5,11 +5,10 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Map1
         - /TF1/Frames1
         - /Global Map (DWA)1/Costmap1
         - /Local Map (DWA)1/Costmap1
-        - /Global Map (TEB)1/Planner1
+        - /Global Map (TEB)1/Costmap1
       Splitter Ratio: 0.5
     Tree Height: 1088
   - Class: rviz/Selection
@@ -281,7 +280,7 @@ Visualization Manager:
         - Alpha: 0.699999988079071
           Class: rviz/Map
           Color Scheme: map
-          Draw Behind: true
+          Draw Behind: false
           Enabled: true
           Name: Costmap
           Topic: /move_base/global_costmap/costmap
@@ -489,16 +488,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 29.5511531829834
+      Distance: 31.687976837158203
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -3.9081480503082275
-        Y: 0.6893615126609802
-        Z: 2.356837511062622
+        X: -1.045880675315857
+        Y: -5.3203959465026855
+        Z: 1.5835696458816528
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
@@ -507,7 +506,7 @@ Visualization Manager:
       Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.3140476942062378
+      Yaw: 1.6190474033355713
     Saved: ~
 Window Geometry:
   Displays:
