@@ -80,7 +80,7 @@ TebLocalPlannerROS:
   publish_feedback: False
   # Robot     
   max_vel_x: 0.5
-  max_vel_x_backwards: 0.15
+  max_vel_x_backwards: 0.1
   max_vel_y: 0.0
   max_vel_theta: 0.5
   acc_lim_x: 2.0
@@ -94,7 +94,7 @@ TebLocalPlannerROS:
   free_goal_vel: False
   complete_global_plan: True
   # Obstacles
-  min_obstacle_dist: 0.5 # This value must include robot radius, as footprint_model is "point".
+  min_obstacle_dist: 0.8 # This value must include robot radius, as footprint_model is "point".
   inflation_dist: 0.6
   include_costmap_obstacles: True
   costmap_obstacles_behind_robot_dist: 1.5
