@@ -1,10 +1,10 @@
 <launch>
     <!-- Velodyne VLP-16 LiDAR -->
     <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch">
-      <arg name="min_range" value="0.2"/>
+      <arg name="min_range" value="0.1"/>
      </include>
     <node pkg="tf" type="static_transform_publisher" name="laser_to_base"
-    	  args="0.26 0 0.288 0 0 0 1 /base_link /laser 50"/>
+    	  args="0.19 0 0.255 0 0 0 1 /base_link /laser 50"/>
 
     <!-- IMU -->
 

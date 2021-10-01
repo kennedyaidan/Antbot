@@ -44,11 +44,11 @@
        <arg name="slam_methods" value="$(arg slam_methods)"/>
     </include>
 
-    <!-- Load map -->
+    <!-- Load map and AMCL -->
     <include file="$(find trog_mapping)/launch/known_map.launch" unless="$(arg create_map)">
       <arg name="map_name" value="$(arg map_name)"/>
     </include>
-    
+
     <!-- Move Base -->
     <include file="$(find trog_2dnav)/launch/move_base.launch" if="$(arg use_move_base)">
       <arg name="base_local_planner" value="$(arg base_local_planner)"/>
