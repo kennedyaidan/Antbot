@@ -4,6 +4,7 @@
   <!-- Slam Toolbox -->
   <node pkg="slam_toolbox" type="sync_slam_toolbox_node" name="slam_toolbox" output="screen">
     <rosparam command="load" file="$(find trog_mapping)/config/slam_toolbox_params.yaml" />
+    <remap from="/trog_velocity_controller/odom" to="/odom"/> 
   </node>
 </launch>
 
