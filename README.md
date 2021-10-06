@@ -4,28 +4,24 @@ I picked up this vehicle as my capstone project in my Master's program to explor
 
 
 # Documentation
-=================
 My capstone project for this repository can be found here:
 - 
 
 
 
 # SLAM
-==================
 SLAM can be performed with:
 - Gmapping
 - Slam_toolbox
 
 
 # Autonomous Navigation
-==================
 Navigation of uknown and known maps can be performed with:
 - DWA
 - TEB
 
 
 # Components
-==================
 This is an overview of the key components of Antbot:
 - Velodyne VLP-16 LiDAR
 - Jetson TX2 Developer Kit
