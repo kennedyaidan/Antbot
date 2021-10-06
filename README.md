@@ -30,7 +30,6 @@ This is an overview of the key components of Antbot:
 
 
 # Gazebo interface
-==================
 For convient software development, a full Gazebo model of Antbot can used, it includes:
 - VLP-16 LiDAR simulator
 - 4WD differtial drive controlled wheels
