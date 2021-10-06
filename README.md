@@ -1,6 +1,4 @@
-# Anbot is a 4WD mobile robot capable of SLAM and Autonomous Navigation. The hardware and software was initially developed several years ago as part of pilot program for mobile battery energy storage within UCLA's SMERC Lab (http://smartgrid.ucla.edu/CAEV/). The program was initally called trog, which is a play on the word trogolodyte. 
-
-I picked up this vehicle as my capstone project in my Master's program to explore the fields of SLAM and Autonomous Navigation.
+# Anbot is a 4WD mobile robot capable of SLAM and Autonomous Navigation. The hardware and software was initially developed several years ago as part of pilot program for mobile battery energy storage within UCLA's SMERC Lab (http://smartgrid.ucla.edu/CAEV/). The program was initally called trog, which is a play on the word trogolodyte. I picked up this vehicle as my capstone project in my Master's program to explore the fields of SLAM and Autonomous Navigation.
 
 
 # Documentation
