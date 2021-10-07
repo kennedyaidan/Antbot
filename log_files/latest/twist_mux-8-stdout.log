@@ -1,0 +1,4 @@
+[0m[ INFO] [1633576015.230798885]: Topic handler 'joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s, priority = 10[0m
+[0m[ INFO] [1633576015.296578562]: Topic handler 'interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s, priority = 8[0m
+[0m[ INFO] [1633576015.315998132]: Topic handler 'external' subscribed to topic 'cmd_vel': timeout = 0.500000s, priority = 1[0m
+[0m[ INFO] [1633576015.346275543]: Topic handler 'e_stop' subscribed to topic 'e_stop': timeout = None, priority = 255[0m

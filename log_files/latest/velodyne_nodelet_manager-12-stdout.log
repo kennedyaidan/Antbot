@@ -1,0 +1,28 @@
+[0m[ INFO] [1633576015.343720347]: Initializing nodelet with 8 worker threads.[0m
+[0m[ INFO] [1633576015.415324417]: correction angles: /opt/ros/melodic/share/velodyne_pointcloud/params/VLP16db.yaml[0m
+[0m[ INFO] [1633576015.421533919]: laser_ring[ 0] =  0, angle = -0.261799[0m
+[0m[ INFO] [1633576015.421571048]: laser_ring[ 2] =  1, angle = -0.226893[0m
+[0m[ INFO] [1633576015.421583511]: laser_ring[ 4] =  2, angle = -0.191986[0m
+[0m[ INFO] [1633576015.421595383]: laser_ring[ 6] =  3, angle = -0.157080[0m
+[0m[ INFO] [1633576015.421605793]: laser_ring[ 8] =  4, angle = -0.122173[0m
+[0m[ INFO] [1633576015.421615461]: laser_ring[10] =  5, angle = -0.087266[0m
+[0m[ INFO] [1633576015.421624227]: laser_ring[12] =  6, angle = -0.052360[0m
+[0m[ INFO] [1633576015.421636560]: laser_ring[14] =  7, angle = -0.017453[0m
+[0m[ INFO] [1633576015.421647881]: laser_ring[ 1] =  8, angle = +0.017453[0m
+[0m[ INFO] [1633576015.421659182]: laser_ring[ 3] =  9, angle = +0.052360[0m
+[0m[ INFO] [1633576015.421669762]: laser_ring[ 5] = 10, angle = +0.087266[0m
+[0m[ INFO] [1633576015.421681163]: laser_ring[ 7] = 11, angle = +0.122173[0m
+[0m[ INFO] [1633576015.421694558]: laser_ring[ 9] = 12, angle = +0.157080[0m
+[0m[ INFO] [1633576015.421705719]: laser_ring[11] = 13, angle = +0.191986[0m
+[0m[ INFO] [1633576015.421715518]: laser_ring[13] = 14, angle = +0.226893[0m
+[0m[ INFO] [1633576015.421724735]: laser_ring[15] = 15, angle = +0.261799[0m
+[0m[ INFO] [1633576015.421913807]: Number of lasers: 16.[0m
+[0m[ INFO] [1633576015.456276888]: Reconfigure Request[0m
+[0m[ INFO] [1633576015.535065650]: Velodyne VLP-16 rotating at 600 RPM[0m
+[0m[ INFO] [1633576015.535841306]: publishing 76 packets per scan[0m
+[0m[ INFO] [1633576015.546416280]: Cut at specific angle feature deactivated.[0m
+[0m[ INFO] [1633576015.557172852]: Reconfigure Request[0m
+[0m[ INFO] [1633576015.558650097]: expected frequency: 9.921 (Hz)[0m
+[0m[ INFO] [1633576015.560595866]: Opening UDP socket: port 2368[0m
+[0m[ INFO] [1633576019.745770751, 1298.790000000]: VelodyneLaserScan: Latched ring count of 16[0m
+[0m[ INFO] [1633576019.745825984, 1298.790000000]: VelodyneLaserScan: Extracting ring 8[0m

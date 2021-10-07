@@ -1,0 +1,2 @@
+[0m[ INFO] [1633576015.400706744]: Loading nodelet /velodyne_nodelet_manager_driver of type velodyne_driver/DriverNodelet to manager velodyne_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1633576152.924187195, 1335.990000000]: Unloading nodelet /velodyne_nodelet_manager_driver from manager velodyne_nodelet_manager[0m

@@ -1,0 +1,1185 @@
+[rosmaster.main][INFO] 2021-10-06 20:06:54,842: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-10-06 20:06:54,842: Starting ROS Master Node
+[xmlrpc][INFO] 2021-10-06 20:06:54,843: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-10-06 20:06:54,843: Started XML-RPC server [http://aidan:11311/]
+[rosmaster.master][INFO] 2021-10-06 20:06:54,843: Master initialized: port[11311], uri[http://aidan:11311/]
+[xmlrpc][INFO] 2021-10-06 20:06:54,843: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-10-06 20:06:54,950: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:54,951: +PARAM [/roslaunch/uris/host_aidan__41165] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,050: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/slam_toolbox/trog_slam_toolbox/coarse_search_angle_offset] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/slam_toolbox/trog_slam_toolbox/use_scan_barycenter] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/slam_toolbox/trog_slam_toolbox/minimum_distance_penalty] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/slam_toolbox/trog_slam_toolbox/do_loop_closing] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/twist_mux/topics] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,051: +PARAM [/slam_toolbox/trog_slam_toolbox/debug_logging] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/trog_joint_publisher/type] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/correlation_search_space_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/velodyne_nodelet_manager_driver/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/angle_variance_penalty] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/trog_joint_publisher/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/velodyne_nodelet_manager_driver/device_ip] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/transform_publish_period] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_match_minimum_chain_size] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/correlation_search_space_dimension] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/minimum_angle_penalty] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/velodyne_nodelet_manager_cloud/min_range] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/trog_velocity_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/slam_toolbox/trog_slam_toolbox/max_laser_range] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/robot_localization_ekf/odom0_differential] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/twist_mux/locks] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,052: +PARAM [/trog_velocity_controller/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/velodyne_nodelet_manager_laserscan/ring] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/throttle_scans] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/trog_velocity_controller/cmd_vel_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/trog_velocity_controller/linear/x/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/distance_variance_penalty] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/coarse_angle_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/trog_velocity_controller/angular/z/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/map_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/scan_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/robot_localization_ekf/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,053: +PARAM [/slam_toolbox/trog_slam_toolbox/minimum_travel_heading] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,054: +SERVICE [/rosout/get_loggers] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,054: +PARAM [/slam_toolbox/trog_slam_toolbox/minimum_travel_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,054: +PARAM [/robot_localization_ekf/odom0] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,054: +PARAM [/velodyne_nodelet_manager_driver/model] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,055: +SERVICE [/rosout/set_logger_level] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,055: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,055: +PARAM [/trog_velocity_controller/angular/z/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,056: +PARAM [/trog_velocity_controller/angular/z/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,056: +PARAM [/trog_velocity_controller/linear/x/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,056: +PARAM [/velodyne_nodelet_manager_driver/cut_angle] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,056: +PARAM [/trog_velocity_controller/velocity_rolling_window_size] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,057: +PARAM [/velodyne_nodelet_manager_driver/read_fast] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,057: +PARAM [/velodyne_nodelet_manager_driver/port] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,057: +PARAM [/slam_toolbox/trog_slam_toolbox/enable_interactive_mode] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,058: +PARAM [/slam_toolbox/trog_slam_toolbox/ceres_preconditioner] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,058: +PARAM [/slam_toolbox/trog_slam_toolbox/ceres_dogleg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,058: +PARAM [/slam_toolbox/trog_slam_toolbox/ceres_trust_strategy] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,058: +PARAM [/velodyne_nodelet_manager_cloud/max_range] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,059: +PARAM [/slam_toolbox/trog_slam_toolbox/transform_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,060: +SUB [/clock] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,060: +PARAM [/slam_toolbox/trog_slam_toolbox/base_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,060: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_search_space_dimension] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,060: +PARAM [/trog_velocity_controller/estimate_velocity_from_position] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,061: +PUB [/rosout_agg] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,060: +PARAM [/slam_toolbox/trog_slam_toolbox/mode] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,062: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_search_space_smear_deviation] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,062: +PARAM [/velodyne_nodelet_manager_driver/rpm] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,063: +PARAM [/slam_toolbox/trog_slam_toolbox/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,064: +PARAM [/robot_localization_ekf/sensor_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,064: +PARAM [/velodyne_nodelet_manager_driver/pcap] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,064: +PARAM [/robot_localization_ekf/odom0_config] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,065: +SUB [/rosout] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,065: +PARAM [/trog_velocity_controller/wheel_separation] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,065: +PARAM [/slam_toolbox/trog_slam_toolbox/map_update_interval] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,065: +PARAM [/slam_toolbox/trog_slam_toolbox/use_response_expansion] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,065: +PARAM [/slam_toolbox/trog_slam_toolbox/ceres_linear_solver] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/trog_velocity_controller/twist_covariance_diagonal] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/trog_velocity_controller/right_wheel] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/slam_toolbox/trog_slam_toolbox/link_match_minimum_response_fine] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/trog_velocity_controller/angular/z/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/slam_toolbox/trog_slam_toolbox/link_scan_maximum_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,066: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_match_minimum_response_fine] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/slam_toolbox/trog_slam_toolbox/ceres_loss_function] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/velodyne_nodelet_manager_driver/repeat_delay] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/slam_toolbox/trog_slam_toolbox/correlation_search_space_smear_deviation] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/trog_velocity_controller/linear/x/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/robot_localization_ekf/two_d_mode] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/trog_velocity_controller/enable_odom_tf] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,067: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_search_space_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_match_minimum_response_coarse] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/slam_toolbox/trog_slam_toolbox/scan_buffer_maximum_scan_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/trog_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/robot_localization_ekf/odom0_queue_size] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/gazebo/enable_ros_network] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/trog_velocity_controller/linear/x/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,068: +PARAM [/velodyne_nodelet_manager_laserscan/resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/velodyne_nodelet_manager_cloud/calibration] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/slam_toolbox/trog_slam_toolbox/solver_plugin] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/robot_localization_ekf/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_search_maximum_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/trog_velocity_controller/wheel_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,069: +PARAM [/twist_marker_server/link_name] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,070: +PARAM [/slam_toolbox/trog_slam_toolbox/fine_search_angle_offset] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,070: +PARAM [/slam_toolbox/trog_slam_toolbox/use_scan_matching] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,070: +PARAM [/trog_velocity_controller/wheel_separation_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,070: +PARAM [/trog_velocity_controller/left_wheel] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,070: +PARAM [/slam_toolbox/trog_slam_toolbox/loop_match_maximum_variance_coarse] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/velodyne_nodelet_manager_driver/read_once] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/slam_toolbox/trog_slam_toolbox/tf_buffer_duration] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/slam_toolbox/trog_slam_toolbox/minimum_time_interval] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/trog_velocity_controller/wheel_radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,071: +PARAM [/slam_toolbox/trog_slam_toolbox/stack_size_to_use] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,072: +PARAM [/robot_localization_ekf/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,072: +PARAM [/slam_toolbox/trog_slam_toolbox/scan_buffer_size] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,072: +PARAM [/robot_localization_ekf/base_link_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,072: +PARAM [/trog_velocity_controller/pose_covariance_diagonal] by /roslaunch
+[rosmaster.master][INFO] 2021-10-06 20:06:55,147: +PUB [/rosout] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,147: +SERVICE [/robot_localization_ekf/get_loggers] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,148: +SERVICE [/robot_localization_ekf/set_logger_level] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,151: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,155: +PUB [/rosout] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,156: +SERVICE [/twist_marker_server/get_loggers] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,157: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,158: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,158: +SERVICE [/twist_marker_server/set_logger_level] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,160: +SUB [/clock] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,161: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,163: +PUB [/diagnostics] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,164: +CACHEDPARAM [/robot_localization_ekf/diagnostic_period] by /robot_localization_ekf
+[rosmaster.master][INFO] 2021-10-06 20:06:55,166: +SUB [/clock] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,170: +PUB [/twist_marker_server/update_full] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,174: +PUB [/rosout] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,175: +PUB [/twist_marker_server/update] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,176: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,177: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,179: +PUB [/rosout] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,180: +SUB [/tf] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,182: +SERVICE [/twist_mux/get_loggers] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,185: +SERVICE [/twist_mux/set_logger_level] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,188: +SUB [/twist_marker_server/feedback] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,193: +SUB [/tf_static] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,195: +PUB [/tf] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,196: +SUB [/clock] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,205: +PUB [/twist_marker_server/cmd_vel] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,207: +PUB [/tf] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,209: +PUB [/tf_static] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,211: +CACHEDPARAM [/rosout_disable_topics_generation] by /twist_marker_server
+[rosmaster.master][INFO] 2021-10-06 20:06:55,213: +PUB [/rosout] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,215: +SUB [/clock] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,217: +SERVICE [/joy_teleop/joy_node/get_loggers] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,223: +CACHEDPARAM [/twist_mux/topics] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:06:55,223: +SERVICE [/joy_teleop/joy_node/set_logger_level] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,232: +CACHEDPARAM [/rosout_disable_topics_generation] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:06:55,250: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,253: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,253: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,254: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,255: +SUB [/joint_states] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,260: +SUB [/clock] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,259: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,261: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,262: +PUB [/diagnostics] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,263: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,269: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,267: +CACHEDPARAM [/joy_teleop/joy_node/diagnostic_period] by /joy_teleop/joy_node
+[rosmaster.master][INFO] 2021-10-06 20:06:55,268: +PUB [/rosout] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,264: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,271: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,281: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,286: publisherUpdate[/tf_static] -> http://aidan:39231/ ['http://aidan:33995/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,289: publisherUpdate[/tf_static] -> http://aidan:39231/ ['http://aidan:33995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,289: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,289: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,290: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,285: +PUB [/rosout] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,296: +SUB [/joy_teleop/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,296: +PUB [/rosout] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,296: +PUB [/joy_teleop/joy] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,304: +SERVICE [/joy_teleop/teleop_twist_joy/get_loggers] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,307: +PUB [/rosout] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,308: +SERVICE [/velodyne_nodelet_manager/get_loggers] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,309: +SERVICE [/velodyne_nodelet_manager/set_logger_level] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,313: +SUB [/joy_teleop/joy/set_feedback] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,315: +SUB [/twist_marker_server/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,319: +SERVICE [/joy_teleop/teleop_twist_joy/set_logger_level] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,323: +PUB [/rosout] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,328: +SERVICE [/velodyne_nodelet_manager_cloud/get_loggers] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,332: +SUB [/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,335: +SERVICE [/velodyne_nodelet_manager_laserscan/get_loggers] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,337: +SERVICE [/velodyne_nodelet_manager_driver/get_loggers] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,341: +SUB [/clock] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,341: +CACHEDPARAM [/rosout_disable_topics_generation] by /joy_teleop/joy_node
+[rosmaster.master][INFO] 2021-10-06 20:06:55,342: +SERVICE [/velodyne_nodelet_manager_cloud/set_logger_level] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,344: +CACHEDPARAM [/twist_mux/locks] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:06:55,346: +PUB [/rosout] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,350: +PUB [/rosout] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,351: +SERVICE [/velodyne_nodelet_manager_laserscan/set_logger_level] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,352: +SUB [/set_pose] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,352: +SUB [/clock] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,353: +SERVICE [/velodyne_nodelet_manager_driver/set_logger_level] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,354: +CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,355: +SERVICE [/laser_to_base/get_loggers] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,357: +SUB [/clock] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,359: +SUB [/e_stop] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,361: +SERVICE [/slam_toolbox/trog_slam_toolbox/get_loggers] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,361: +SERVICE [/set_pose] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,362: +SERVICE [/slam_toolbox/trog_slam_toolbox/set_logger_level] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,363: +SERVICE [/velodyne_nodelet_manager/load_nodelet] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,366: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,366: +SERVICE [/laser_to_base/set_logger_level] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,367: +CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_cloud
+[rosmaster.master][INFO] 2021-10-06 20:06:55,368: +PUB [/trog_velocity_controller/cmd_vel] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,368: +PUB [/trog_velocity_controller/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,369: +SERVICE [/robot_localization_ekf/enable] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,369: +SERVICE [/velodyne_nodelet_manager/unload_nodelet] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,370: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,371: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,372: +SERVICE [/velodyne_nodelet_manager/list] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,376: +SUB [/clock] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,378: +SERVICE [/robot_localization_ekf/toggle] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,379: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,380: +PARAM [/velodyne_nodelet_manager_cloud] by /velodyne_nodelet_manager_cloud
+[rosmaster.master][INFO] 2021-10-06 20:06:55,384: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-10-06 20:06:55,385: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,385: +CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_laserscan
+[rosmaster.master][INFO] 2021-10-06 20:06:55,385: +PUB [/diagnostics] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,395: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,397: +SUB [/clock] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,398: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,399: +PARAM [/velodyne_nodelet_manager_laserscan] by /velodyne_nodelet_manager_laserscan
+[rosmaster.master][INFO] 2021-10-06 20:06:55,401: +SUB [/clock] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,402: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,402: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,405: +SUB [/joy_teleop/joy] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,406: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,407: +SUB [/clock] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,409: +CACHEDPARAM [/twist_mux/diagnostic_period] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:06:55,412: +CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_driver
+[rosmaster.master][INFO] 2021-10-06 20:06:55,412: +CACHEDPARAM [/rosout_disable_topics_generation] by /slam_toolbox/trog_slam_toolbox
+[rosmaster.master][INFO] 2021-10-06 20:06:55,412: +PUB [/tf] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,425: +PUB [/velodyne_points] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,426: +SERVICE [/velodyne_nodelet_manager_cloud/set_parameters] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,427: +PUB [/velodyne_nodelet_manager_cloud/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,430: +PUB [/velodyne_nodelet_manager_cloud/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,433: +PARAM [/velodyne_nodelet_manager_driver] by /velodyne_nodelet_manager_driver
+[rosmaster.master][INFO] 2021-10-06 20:06:55,438: +PARAM [/velodyne_nodelet_manager_cloud/min_range] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,439: +SUB [/trog_velocity_controller/odom] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,440: +PARAM [/velodyne_nodelet_manager_cloud/max_range] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,441: +CACHEDPARAM [/rosout_disable_topics_generation] by /joy_teleop/teleop_twist_joy
+[rosmaster.master][INFO] 2021-10-06 20:06:55,445: +PUB [/odom] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,454: +PARAM [/velodyne_nodelet_manager_cloud/view_direction] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,455: +PARAM [/velodyne_nodelet_manager_cloud/view_width] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,456: +PARAM [/velodyne_nodelet_manager_cloud/min_range] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,457: +PARAM [/velodyne_nodelet_manager_cloud/max_range] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,458: +PARAM [/velodyne_nodelet_manager_cloud/view_direction] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,459: +PARAM [/velodyne_nodelet_manager_cloud/view_width] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,464: +SUB [/velodyne_packets] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,466: +PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,472: +SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,492: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,493: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,494: +PARAM [/slam_toolbox/trog_slam_toolbox/paused_new_measurements] by /slam_toolbox/trog_slam_toolbox
+[rosmaster.master][INFO] 2021-10-06 20:06:55,494: +SERVICE [/velodyne_nodelet_manager_laserscan/set_parameters] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,495: +PUB [/velodyne_nodelet_manager_laserscan/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,497: +PUB [/velodyne_nodelet_manager_laserscan/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,499: +PARAM [/velodyne_nodelet_manager_laserscan/ring] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,500: +PARAM [/velodyne_nodelet_manager_laserscan/resolution] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,502: +SUB [/tf] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,502: +PUB [/scan] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,503: +PARAM [/velodyne_nodelet_manager_laserscan/ring] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,507: +SUB [/tf_static] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,510: +PUB [/tf] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,511: +PUB [/slam_toolbox/map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,511: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,512: +PUB [/map_metadata] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,512: +PARAM [/velodyne_nodelet_manager_laserscan/resolution] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,513: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,514: +SERVICE [/slam_toolbox/trog_slam_toolbox/dynamic_map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,514: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,515: +SERVICE [/slam_toolbox/trog_slam_toolbox/pause_new_measurements] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,517: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,518: +SERVICE [/slam_toolbox/trog_slam_toolbox/serialize_map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,520: +SERVICE [/slam_toolbox/trog_slam_toolbox/deserialize_map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,525: +SUB [/scan] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,526: +PUB [/rosout] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,527: +PUB [/diagnostics] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,527: +SERVICE [/rviz/get_loggers] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,528: +CACHEDPARAM [/velodyne_nodelet_manager/diagnostic_period] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,529: +SERVICE [/rviz/set_logger_level] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,536: +SUB [/clock] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,537: +CACHEDPARAM [/rosout_disable_topics_generation] by /rviz
+[rosmaster.master][INFO] 2021-10-06 20:06:55,543: +SERVICE [/slam_toolbox/trog_slam_toolbox/save_map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,549: +SUB [/slam_toolbox/map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,550: +SERVICE [/velodyne_nodelet_manager_driver/set_parameters] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,550: +PARAM [/slam_toolbox/trog_slam_toolbox/paused_processing] by /slam_toolbox/trog_slam_toolbox
+[rosmaster.master][INFO] 2021-10-06 20:06:55,551: +PUB [/velodyne_nodelet_manager_driver/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,552: +PUB [/velodyne_nodelet_manager_driver/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,555: +SERVICE [/slam_toolbox/trog_slam_toolbox/clear_changes] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,556: +PARAM [/velodyne_nodelet_manager_driver/time_offset] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,556: +SERVICE [/slam_toolbox/trog_slam_toolbox/manual_loop_closure] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,557: +PARAM [/velodyne_nodelet_manager_driver/time_offset] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:06:55,558: +PUB [/slam_toolbox/trog_slam_toolbox/karto_scan_visualization] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,559: +PUB [/slam_toolbox/slam_toolbox/update_full] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,561: +PUB [/slam_toolbox/slam_toolbox/update] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,561: +PUB [/velodyne_packets] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,566: +SUB [/slam_toolbox/slam_toolbox/feedback] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,567: +SERVICE [/slam_toolbox/trog_slam_toolbox/toggle_interactive_mode] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,568: +PARAM [/slam_toolbox/trog_slam_toolbox/interactive_mode] by /slam_toolbox/trog_slam_toolbox
+[rosmaster.master][INFO] 2021-10-06 20:06:55,569: +PUB [/slam_toolbox/trog_slam_toolbox/karto_graph_visualization] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,593: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,595: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,595: publisherUpdate[/velodyne_packets] -> http://aidan:36699/ ['http://aidan:36699/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,597: publisherUpdate[/velodyne_packets] -> http://aidan:36699/ ['http://aidan:36699/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,609: +PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,610: +PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,612: +PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,618: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,619: +SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,622: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,623: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/', 'http://aidan:41459/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,624: +SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,625: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/', 'http://aidan:41459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,625: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,626: +SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,627: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,668: +PUB [/rosout] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,674: +SUB [/clock] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,677: +SERVICE [/base_controller_spawner/get_loggers] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,678: +SERVICE [/base_controller_spawner/set_logger_level] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,680: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:55,696: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,706: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,746: +SUB [/velodyne_points] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,789: +PUB [/rosout] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,790: +SERVICE [/gazebo/get_loggers] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,790: +SERVICE [/gazebo/set_logger_level] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,793: +PUB [/rosout] /gazebo_gui http://aidan:44215/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,794: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://aidan:44215/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,796: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://aidan:44215/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,798: +SUB [/clock] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,798: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,801: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,803: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/']
+[rosmaster.master][INFO] 2021-10-06 20:06:55,805: +SUB [/clock] /gazebo_gui http://aidan:44215/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,807: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:55,807: +CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:55,811: +CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo_gui
+[rosmaster.master][INFO] 2021-10-06 20:06:55,888: +SUB [/tf] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,893: +SUB [/tf_static] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,952: +PUB [/initialpose] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,954: +PUB [/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,970: +SUB [/map] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,974: +SUB [/map_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,981: +SUB [/move_base/local_costmap/costmap] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,984: +SUB [/move_base/local_costmap/costmap_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,989: +SUB [/move_base/TebLocalPlannerROS/local_plan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,994: +SUB [/move_base/local_costmap/footprint] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,997: +SUB [/move_base/global_costmap/costmap] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:55,999: +SUB [/move_base/global_costmap/costmap_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,003: +SUB [/move_base/TebLocalPlannerROS/global_plan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,009: +SUB [/scan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,012: +SUB [/particlecloud] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,203: +SUB [/move_base/current_goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,204: -PUB [/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,205: -PUB [/initialpose] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,209: +PUB [/initialpose] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,210: +PUB [/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,211: +PUB [/move_base_simple/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,212: -PUB [/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,212: +PUB [/clicked_point] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,226: +PUB [/rosout] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,228: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:40241/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,231: +SUB [/clock] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,232: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:40241/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,233: +SERVICE [/spawn_Antbot_model/get_loggers] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,234: +SERVICE [/spawn_Antbot_model/set_logger_level] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,236: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_Antbot_model
+[rosmaster.master][INFO] 2021-10-06 20:06:56,251: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_Antbot_model
+[rosmaster.master][INFO] 2021-10-06 20:06:56,282: +SERVICE [/rviz/reload_shaders] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,283: +SERVICE [/rviz/load_config] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,284: +SERVICE [/rviz/save_config] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,621: +PUB [/clock] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,623: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,624: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,625: +SERVICE [/gazebo/delete_model] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,626: +SERVICE [/gazebo/delete_light] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,627: +SERVICE [/gazebo/get_model_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,628: +SERVICE [/gazebo/get_model_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,629: +SERVICE [/gazebo/get_world_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,630: +SERVICE [/gazebo/get_joint_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,630: +SERVICE [/gazebo/get_link_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,631: +SERVICE [/gazebo/get_link_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,631: +SERVICE [/gazebo/get_light_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,632: +SERVICE [/gazebo/set_light_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,633: +SERVICE [/gazebo/get_physics_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,633: publisherUpdate[/clock] -> http://aidan:33311/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,634: +PUB [/gazebo/link_states] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,634: publisherUpdate[/clock] -> http://aidan:33311/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,635: publisherUpdate[/clock] -> http://aidan:39231/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,635: +PUB [/gazebo/model_states] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,635: publisherUpdate[/clock] -> http://aidan:39231/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,636: publisherUpdate[/clock] -> http://aidan:42939/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,636: +SERVICE [/gazebo/set_link_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,638: +SERVICE [/gazebo/set_physics_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,638: publisherUpdate[/clock] -> http://aidan:42939/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,638: publisherUpdate[/clock] -> http://aidan:33995/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,639: +SERVICE [/gazebo/set_model_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,640: +SERVICE [/gazebo/set_model_configuration] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,640: publisherUpdate[/clock] -> http://aidan:33995/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,641: publisherUpdate[/clock] -> http://aidan:41197/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,641: +SERVICE [/gazebo/set_joint_properties] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,642: +SERVICE [/gazebo/set_link_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,643: publisherUpdate[/clock] -> http://aidan:41197/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,643: publisherUpdate[/clock] -> http://aidan:46057/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,646: publisherUpdate[/clock] -> http://aidan:46057/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,646: publisherUpdate[/clock] -> http://aidan:36699/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,647: +SUB [/gazebo/set_link_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,648: publisherUpdate[/clock] -> http://aidan:36699/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,650: publisherUpdate[/clock] -> http://aidan:42743/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,653: +SUB [/gazebo/set_model_state] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,654: +SERVICE [/gazebo/pause_physics] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,655: publisherUpdate[/clock] -> http://aidan:42743/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,655: publisherUpdate[/clock] -> http://aidan:41459/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,656: +SERVICE [/gazebo/set_parameters] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,658: publisherUpdate[/clock] -> http://aidan:41459/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,658: +PUB [/gazebo/parameter_descriptions] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,659: publisherUpdate[/clock] -> http://aidan:33537/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,659: +SERVICE [/gazebo/unpause_physics] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,661: +PUB [/gazebo/parameter_updates] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,662: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,663: publisherUpdate[/clock] -> http://aidan:33537/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,665: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,665: publisherUpdate[/clock] -> http://aidan:33125/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,668: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,670: publisherUpdate[/clock] -> http://aidan:33125/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,672: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,672: publisherUpdate[/clock] -> http://aidan:39061/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,674: +SERVICE [/gazebo/reset_simulation] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,675: publisherUpdate[/clock] -> http://aidan:39061/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,675: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,676: +SERVICE [/gazebo/reset_world] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:56,676: publisherUpdate[/clock] -> http://aidan:37967/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,677: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,679: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,680: publisherUpdate[/clock] -> http://aidan:37967/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,681: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,681: publisherUpdate[/clock] -> http://aidan:44193/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,682: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,683: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,684: publisherUpdate[/clock] -> http://aidan:44193/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,684: publisherUpdate[/clock] -> http://aidan:43351/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,685: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,687: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,688: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,689: publisherUpdate[/clock] -> http://aidan:43351/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,689: publisherUpdate[/clock] -> http://aidan:33371/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,690: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,691: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,692: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,693: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,694: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,695: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,703: publisherUpdate[/clock] -> http://aidan:33371/ ['http://aidan:33371/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,703: publisherUpdate[/clock] -> http://aidan:44215/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,705: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,706: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,707: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,708: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,709: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,709: publisherUpdate[/clock] -> http://aidan:40241/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:56,710: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,711: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,711: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,712: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,712: publisherUpdate[/clock] -> http://aidan:40241/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,713: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,714: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,715: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,716: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,717: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,718: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:56,730: publisherUpdate[/clock] -> http://aidan:44215/ ['http://aidan:33371/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:56,841: +CACHEDPARAM [/rosout_disable_topics_generation] by /robot_localization_ekf
+[rosmaster.master][INFO] 2021-10-06 20:06:56,858: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_Antbot_model
+[rosmaster.master][INFO] 2021-10-06 20:06:59,178: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_Antbot_model
+[rosmaster.master][INFO] 2021-10-06 20:06:59,180: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_Antbot_model
+[rosmaster.master][INFO] 2021-10-06 20:06:59,190: -SUB [/clock] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,190: -PUB [/rosout] /spawn_Antbot_model http://aidan:40241/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,190: -SERVICE [/spawn_Antbot_model/set_logger_level] /spawn_Antbot_model rosrpc://aidan:39071
+[rosmaster.master][INFO] 2021-10-06 20:06:59,190: -SERVICE [/spawn_Antbot_model/get_loggers] /spawn_Antbot_model rosrpc://aidan:39071
+[rosmaster.master][INFO] 2021-10-06 20:06:59,201: +PUB [/velodyne_points] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,212: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,214: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,214: publisherUpdate[/velodyne_points] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,215: publisherUpdate[/velodyne_points] -> http://aidan:36699/ ['http://aidan:36699/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2021-10-06 20:06:59,308: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2021-10-06 20:06:59,433: +SERVICE [/controller_manager/list_controllers] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,434: +SERVICE [/controller_manager/list_controller_types] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,435: +SERVICE [/controller_manager/load_controller] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,435: +SERVICE [/controller_manager/unload_controller] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,436: +SERVICE [/controller_manager/switch_controller] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,437: +SERVICE [/controller_manager/reload_controller_libraries] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,608: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:59,613: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:59,619: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:59,630: +PUB [/joint_states] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,635: publisherUpdate[/joint_states] -> http://aidan:33995/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,637: publisherUpdate[/joint_states] -> http://aidan:33995/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,752: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:59,793: +PUB [/trog_velocity_controller/odom] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,794: +PUB [/tf] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,800: +SUB [/trog_velocity_controller/cmd_vel] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,803: +SERVICE [/trog_velocity_controller/set_parameters] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,803: +PUB [/trog_velocity_controller/parameter_descriptions] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,804: +PUB [/trog_velocity_controller/parameter_updates] /gazebo http://aidan:33371/
+[rosmaster.master][INFO] 2021-10-06 20:06:59,806: +PARAM [/trog_velocity_controller/left_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,807: +PARAM [/trog_velocity_controller/right_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,808: +PARAM [/trog_velocity_controller/wheel_separation_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,809: +PARAM [/trog_velocity_controller/publish_rate] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,810: +PARAM [/trog_velocity_controller/enable_odom_tf] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,811: +PARAM [/trog_velocity_controller/left_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,812: +PARAM [/trog_velocity_controller/right_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,812: +PARAM [/trog_velocity_controller/wheel_separation_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,813: +PARAM [/trog_velocity_controller/publish_rate] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,814: +PARAM [/trog_velocity_controller/enable_odom_tf] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,815: +PARAM [/trog_velocity_controller/left_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,816: +PARAM [/trog_velocity_controller/right_wheel_radius_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,817: +PARAM [/trog_velocity_controller/wheel_separation_multiplier] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,817: publisherUpdate[/trog_velocity_controller/odom] -> http://aidan:39231/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,817: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,818: +PARAM [/trog_velocity_controller/publish_rate] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,819: publisherUpdate[/trog_velocity_controller/odom] -> http://aidan:39231/ ['http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,820: +PARAM [/trog_velocity_controller/enable_odom_tf] by /gazebo
+[rosmaster.master][INFO] 2021-10-06 20:06:59,820: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,821: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,821: publisherUpdate[/tf] -> http://aidan:44193/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:06:59,823: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,824: publisherUpdate[/tf] -> http://aidan:44193/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:06:59,832: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:06:59,842: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:07:14,743: +PUB [/rosout] /rqt_gui_py_node_3820 http://aidan:34931/
+[rosmaster.master][INFO] 2021-10-06 20:07:14,747: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:07:14,750: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:44193/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:07:14,750: +SUB [/clock] /rqt_gui_py_node_3820 http://aidan:34931/
+[rosmaster.master][INFO] 2021-10-06 20:07:14,754: +SERVICE [/rqt_gui_py_node_3820/get_loggers] /rqt_gui_py_node_3820 http://aidan:34931/
+[rosmaster.master][INFO] 2021-10-06 20:07:14,756: +SERVICE [/rqt_gui_py_node_3820/set_logger_level] /rqt_gui_py_node_3820 http://aidan:34931/
+[rosmaster.master][INFO] 2021-10-06 20:07:14,779: +SUB [/statistics] /rqt_gui_py_node_3820 http://aidan:34931/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,988: -PUB [/rosout] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,990: -PUB [/initialpose] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,991: -PUB [/move_base_simple/goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,992: -PUB [/clicked_point] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,994: -SUB [/clock] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,995: -SUB [/tf] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,996: -SUB [/tf_static] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,997: -SUB [/map] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,998: -SUB [/map_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,998: -SUB [/move_base/local_costmap/costmap] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:12,999: -SUB [/move_base/local_costmap/costmap_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,000: -SUB [/move_base/TebLocalPlannerROS/local_plan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,001: -SUB [/move_base/local_costmap/footprint] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,002: -SUB [/move_base/global_costmap/costmap] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,003: -SUB [/move_base/global_costmap/costmap_updates] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,004: -SUB [/move_base/TebLocalPlannerROS/global_plan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,005: -SUB [/scan] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,007: -PUB [/rosout] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,008: -SUB [/particlecloud] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,009: -SUB [/move_base/current_goal] /rviz http://aidan:44193/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,010: -SERVICE [/rviz/get_loggers] /rviz rosrpc://aidan:54243
+[rosmaster.master][INFO] 2021-10-06 20:09:13,011: -PUB [/velodyne_points] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,012: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://aidan:54243
+[rosmaster.master][INFO] 2021-10-06 20:09:13,013: -PUB [/velodyne_nodelet_manager_cloud/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,014: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://aidan:54243
+[rosmaster.master][INFO] 2021-10-06 20:09:13,014: -PUB [/velodyne_nodelet_manager_cloud/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,016: -PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,018: -PUB [/velodyne_nodelet_manager_laserscan/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,019: -PUB [/velodyne_nodelet_manager_laserscan/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,020: -PUB [/scan] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,022: -PUB [/diagnostics] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,023: -PUB [/velodyne_nodelet_manager_driver/parameter_descriptions] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,024: -PUB [/velodyne_nodelet_manager_driver/parameter_updates] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,025: -PUB [/velodyne_packets] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,026: -SUB [/clock] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,027: -SUB [/velodyne_packets] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,028: -SERVICE [/rviz/load_config] /rviz rosrpc://aidan:54243
+[rosmaster.master][INFO] 2021-10-06 20:09:13,029: -SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,030: -SERVICE [/rviz/save_config] /rviz rosrpc://aidan:54243
+[rosmaster.master][INFO] 2021-10-06 20:09:13,030: -SUB [/velodyne_points] /velodyne_nodelet_manager http://aidan:36699/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,031: -CACHEDPARAM [/rosout_disable_topics_generation] by /rviz
+[rosmaster.master][INFO] 2021-10-06 20:09:13,032: -SERVICE [/velodyne_nodelet_manager/get_loggers] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,033: -SERVICE [/velodyne_nodelet_manager/set_logger_level] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,033: -SERVICE [/velodyne_nodelet_manager/load_nodelet] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,034: -SERVICE [/velodyne_nodelet_manager/unload_nodelet] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,034: -SERVICE [/velodyne_nodelet_manager/list] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,035: -SERVICE [/velodyne_nodelet_manager_cloud/set_parameters] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,036: -SERVICE [/velodyne_nodelet_manager_laserscan/set_parameters] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,037: -SERVICE [/velodyne_nodelet_manager_driver/set_parameters] /velodyne_nodelet_manager rosrpc://aidan:59677
+[rosmaster.master][INFO] 2021-10-06 20:09:13,046: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,047: publisherUpdate[/velodyne_points] -> http://aidan:36699/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,047: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:36699/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,048: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,048: publisherUpdate[/velodyne_points] -> http://aidan:36699/ ['http://aidan:33371/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,049: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,049: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,050: -CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:09:13,051: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:36699/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,051: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:41197/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,051: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,052: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,052: -CACHEDPARAM [/velodyne_nodelet_manager/diagnostic_period] by /velodyne_nodelet_manager
+[rosmaster.master][INFO] 2021-10-06 20:09:13,052: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,055: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,055: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,056: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,056: publisherUpdate[/scan] -> http://aidan:39061/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,057: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,057: publisherUpdate[/velodyne_packets] -> http://aidan:36699/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,058: publisherUpdate[/scan] -> http://aidan:39061/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,061: publisherUpdate[/velodyne_packets] -> http://aidan:36699/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,061: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,082: -PUB [/rosout] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,084: -PUB [/trog_velocity_controller/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,086: -PUB [/diagnostics] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,087: -SUB [/clock] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,090: -SUB [/joy_teleop/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,092: -SUB [/twist_marker_server/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,094: -SUB [/cmd_vel] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,096: -SUB [/e_stop] /twist_mux http://aidan:41197/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,097: -SERVICE [/twist_mux/get_loggers] /twist_mux rosrpc://aidan:38353
+[rosmaster.master][INFO] 2021-10-06 20:09:13,098: -SERVICE [/twist_mux/set_logger_level] /twist_mux rosrpc://aidan:38353
+[rosmaster.master][INFO] 2021-10-06 20:09:13,099: -CACHEDPARAM [/rosout_disable_topics_generation] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:09:13,100: -CACHEDPARAM [/twist_mux/diagnostic_period] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:09:13,102: -CACHEDPARAM [/twist_mux/locks] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:09:13,104: -CACHEDPARAM [/twist_mux/topics] by /twist_mux
+[rosmaster.master][INFO] 2021-10-06 20:09:13,124: -PUB [/rosout] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,125: -PUB [/diagnostics] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,126: -PUB [/joy_teleop/joy] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,127: -SUB [/clock] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,127: -SUB [/joy_teleop/joy/set_feedback] /joy_teleop/joy_node http://aidan:46057/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,129: -PUB [/rosout] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,129: -SERVICE [/joy_teleop/joy_node/get_loggers] /joy_teleop/joy_node rosrpc://aidan:50331
+[rosmaster.master][INFO] 2021-10-06 20:09:13,130: -PUB [/tf] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,130: -SERVICE [/joy_teleop/joy_node/set_logger_level] /joy_teleop/joy_node rosrpc://aidan:50331
+[rosmaster.master][INFO] 2021-10-06 20:09:13,131: -SUB [/clock] /laser_to_base http://aidan:37967/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,132: -CACHEDPARAM [/joy_teleop/joy_node/diagnostic_period] by /joy_teleop/joy_node
+[rosmaster.master][INFO] 2021-10-06 20:09:13,132: -SERVICE [/laser_to_base/get_loggers] /laser_to_base rosrpc://aidan:37361
+[rosmaster.master][INFO] 2021-10-06 20:09:13,134: -SERVICE [/laser_to_base/set_logger_level] /laser_to_base rosrpc://aidan:37361
+[rosmaster.master][INFO] 2021-10-06 20:09:13,135: -CACHEDPARAM [/rosout_disable_topics_generation] by /joy_teleop/joy_node
+[rosmaster.master][INFO] 2021-10-06 20:09:13,137: -PUB [/rosout] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,138: -PUB [/trog_velocity_controller/cmd_vel] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,139: -SUB [/clock] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,141: -SUB [/joy_teleop/joy] /joy_teleop/teleop_twist_joy http://aidan:42743/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,142: -SERVICE [/joy_teleop/teleop_twist_joy/get_loggers] /joy_teleop/teleop_twist_joy rosrpc://aidan:48167
+[rosmaster.master][INFO] 2021-10-06 20:09:13,146: -SERVICE [/joy_teleop/teleop_twist_joy/set_logger_level] /joy_teleop/teleop_twist_joy rosrpc://aidan:48167
+[rosmaster.master][INFO] 2021-10-06 20:09:13,147: -CACHEDPARAM [/rosout_disable_topics_generation] by /joy_teleop/teleop_twist_joy
+[rosmaster.master][INFO] 2021-10-06 20:09:13,155: -PUB [/rosout] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,156: -PUB [/rosout] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,157: -PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,157: -PUB [/rosout] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,158: -PUB [/rosout] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,158: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,159: -PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,160: -PUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,160: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:46057/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,161: publisherUpdate[/trog_velocity_controller/cmd_vel] -> http://aidan:33371/ ['http://aidan:42743/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,162: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,160: -SUB [/clock] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,163: -PUB [/tf] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,163: publisherUpdate[/trog_velocity_controller/cmd_vel] -> http://aidan:33371/ ['http://aidan:42743/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,164: publisherUpdate[/joy_teleop/joy] -> http://aidan:42743/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,166: -SUB [/clock] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,167: -SUB [/clock] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,168: -SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_laserscan http://aidan:33537/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,168: -PUB [/slam_toolbox/map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,169: -SERVICE [/velodyne_nodelet_manager_laserscan/get_loggers] /velodyne_nodelet_manager_laserscan rosrpc://aidan:53049
+[rosmaster.master][INFO] 2021-10-06 20:09:13,170: -SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_cloud http://aidan:41459/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,171: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:37967/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,171: publisherUpdate[/joy_teleop/joy] -> http://aidan:42743/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,173: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,174: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,172: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,176: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:42743/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,175: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,172: -SUB [/velodyne_nodelet_manager/bond] /velodyne_nodelet_manager_driver http://aidan:33125/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,177: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:33371/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,177: -PUB [/map_metadata] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,178: -SERVICE [/velodyne_nodelet_manager_cloud/get_loggers] /velodyne_nodelet_manager_cloud rosrpc://aidan:44479
+[rosmaster.master][INFO] 2021-10-06 20:09:13,178: -SERVICE [/velodyne_nodelet_manager_cloud/set_logger_level] /velodyne_nodelet_manager_cloud rosrpc://aidan:44479
+[rosmaster.master][INFO] 2021-10-06 20:09:13,179: -CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_cloud
+[rosmaster.master][INFO] 2021-10-06 20:09:13,179: -PUB [/slam_toolbox/trog_slam_toolbox/karto_scan_visualization] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,179: -SERVICE [/velodyne_nodelet_manager_driver/get_loggers] /velodyne_nodelet_manager_driver rosrpc://aidan:33483
+[rosmaster.master][INFO] 2021-10-06 20:09:13,180: -PUB [/slam_toolbox/slam_toolbox/update_full] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,180: -PUB [/slam_toolbox/slam_toolbox/update] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,181: -PUB [/slam_toolbox/trog_slam_toolbox/karto_graph_visualization] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,182: -SUB [/clock] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,182: -SUB [/tf] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,184: -SUB [/tf_static] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,184: -SUB [/scan] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,185: -SUB [/slam_toolbox/map] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,187: -SUB [/slam_toolbox/slam_toolbox/feedback] /slam_toolbox/trog_slam_toolbox http://aidan:39061/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,191: -SERVICE [/velodyne_nodelet_manager_laserscan/set_logger_level] /velodyne_nodelet_manager_laserscan rosrpc://aidan:53049
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,191: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,192: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,192: publisherUpdate[/trog_velocity_controller/cmd_vel] -> http://aidan:33371/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,193: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:33371/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,193: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,195: publisherUpdate[/trog_velocity_controller/cmd_vel] -> http://aidan:33371/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,195: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,196: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33125/', 'http://aidan:41459/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,197: -CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_laserscan
+[rosmaster.master][INFO] 2021-10-06 20:09:13,197: -SERVICE [/velodyne_nodelet_manager_driver/set_logger_level] /velodyne_nodelet_manager_driver rosrpc://aidan:33483
+[rosmaster.master][INFO] 2021-10-06 20:09:13,202: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,202: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33125/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,203: -SERVICE [/slam_toolbox/trog_slam_toolbox/get_loggers] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,204: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,204: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33125/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,205: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,205: -CACHEDPARAM [/rosout_disable_topics_generation] by /velodyne_nodelet_manager_driver
+[rosmaster.master][INFO] 2021-10-06 20:09:13,206: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:33537/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,207: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,207: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,208: -SERVICE [/slam_toolbox/trog_slam_toolbox/set_logger_level] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,205: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:41459/', 'http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,209: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:39061/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,211: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,210: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,211: -SERVICE [/slam_toolbox/trog_slam_toolbox/dynamic_map] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,212: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:42939/', 'http://aidan:33995/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,212: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,213: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:41459/', 'http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,213: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,217: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ ['http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,217: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,217: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:33537/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,219: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ ['http://aidan:33537/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,219: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,219: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,220: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:41459/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,221: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,222: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,214: -SERVICE [/slam_toolbox/trog_slam_toolbox/pause_new_measurements] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,221: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ ['http://aidan:33537/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,215: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,223: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ []
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,224: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,225: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,226: -SERVICE [/slam_toolbox/trog_slam_toolbox/serialize_map] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,226: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33125/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,227: publisherUpdate[/velodyne_nodelet_manager/bond] -> http://aidan:33537/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,229: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,229: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,229: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,230: -SERVICE [/slam_toolbox/trog_slam_toolbox/deserialize_map] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,230: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:33371/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,232: publisherUpdate[/tf] -> http://aidan:39061/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:33371/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,232: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,232: publisherUpdate[/slam_toolbox/map] -> http://aidan:39061/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,233: -SERVICE [/slam_toolbox/trog_slam_toolbox/save_map] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,234: -SERVICE [/slam_toolbox/trog_slam_toolbox/clear_changes] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,235: publisherUpdate[/slam_toolbox/map] -> http://aidan:39061/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,236: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,236: -SERVICE [/slam_toolbox/trog_slam_toolbox/manual_loop_closure] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,236: -SERVICE [/slam_toolbox/trog_slam_toolbox/toggle_interactive_mode] /slam_toolbox/trog_slam_toolbox rosrpc://aidan:58741
+[rosmaster.master][INFO] 2021-10-06 20:09:13,237: -CACHEDPARAM [/rosout_disable_topics_generation] by /slam_toolbox/trog_slam_toolbox
+[rosmaster.master][INFO] 2021-10-06 20:09:13,327: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:09:13,330: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:09:13,336: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:09:13,338: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:09:13,394: -PUB [/rosout] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,394: -PUB [/twist_marker_server/update_full] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,395: -PUB [/twist_marker_server/update] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,395: -PUB [/twist_marker_server/cmd_vel] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,395: -SUB [/clock] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,396: -SUB [/twist_marker_server/feedback] /twist_marker_server http://aidan:42939/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,396: -SERVICE [/twist_marker_server/get_loggers] /twist_marker_server rosrpc://aidan:33473
+[rosmaster.master][INFO] 2021-10-06 20:09:13,397: -SERVICE [/twist_marker_server/set_logger_level] /twist_marker_server rosrpc://aidan:33473
+[rosmaster.master][INFO] 2021-10-06 20:09:13,397: -CACHEDPARAM [/rosout_disable_topics_generation] by /twist_marker_server
+[rosmaster.master][INFO] 2021-10-06 20:09:13,407: -PUB [/rosout] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,408: -PUB [/tf] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,409: -PUB [/tf_static] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,409: -SUB [/clock] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,410: -SUB [/joint_states] /robot_state_publisher http://aidan:33995/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,411: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://aidan:41539
+[rosmaster.master][INFO] 2021-10-06 20:09:13,411: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://aidan:41539
+[rosmaster.master][INFO] 2021-10-06 20:09:13,429: -PUB [/rosout] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,430: -PUB [/diagnostics] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,430: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,431: -PUB [/tf] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,432: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,433: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:33995/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,433: -PUB [/odom] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,434: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,435: -SUB [/clock] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,436: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:39231/', 'http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,436: -SUB [/tf] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,436: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,437: -SUB [/tf_static] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,439: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:39231/', 'http://aidan:33371/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,440: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:43351/', 'http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:13,440: -SUB [/set_pose] /robot_localization_ekf http://aidan:39231/
+[rosmaster.master][INFO] 2021-10-06 20:09:13,441: publisherUpdate[/tf_static] -> http://aidan:39231/ []
+[rosmaster.master][INFO] 2021-10-06 20:09:13,442: -SUB [/trog_velocity_controller/odom] /robot_localization_ekf http://aidan:39231/
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,442: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,443: publisherUpdate[/tf_static] -> http://aidan:39231/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-10-06 20:09:13,444: -SERVICE [/robot_localization_ekf/get_loggers] /robot_localization_ekf rosrpc://aidan:49013
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,444: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,445: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:33371/']
+[rosmaster.master][INFO] 2021-10-06 20:09:13,446: -SERVICE [/robot_localization_ekf/set_logger_level] /robot_localization_ekf rosrpc://aidan:49013
+[rosmaster.master][INFO] 2021-10-06 20:09:13,446: publisherUpdate[/tf] -> http://aidan:39231/ ['http://aidan:33371/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-10-06 20:09:13,447: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-10-06 20:09:13,447: -SERVICE [/set_pose] /robot_localization_ekf rosrpc://aidan:49013
+[rosmaster.master][INFO] 2021-10-06 20:09:13,448: -SERVICE [/robot_localization_ekf/enable] /robot_localization_ekf rosrpc://aidan:49013
+[rosmaster.master][INFO] 2021-10-06 20:09:13,449: -SERVICE [/robot_localization_ekf/toggle] /robot_localization_ekf rosrpc://aidan:49013
+[rosmaster.master][INFO] 2021-10-06 20:09:13,451: -CACHEDPARAM [/robot_localization_ekf/diagnostic_period] by /robot_localization_ekf
+[rosmaster.master][INFO] 2021-10-06 20:09:13,451: -CACHEDPARAM [/rosout_disable_topics_generation] by /robot_localization_ekf
+[rosmaster.master][INFO] 2021-10-06 20:09:28,385: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_controller_spawner
+[rosmaster.master][INFO] 2021-10-06 20:09:28,389: -SUB [/clock] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:09:28,389: -PUB [/rosout] /base_controller_spawner http://aidan:43351/
+[rosmaster.master][INFO] 2021-10-06 20:09:28,390: -SERVICE [/base_controller_spawner/get_loggers] /base_controller_spawner rosrpc://aidan:38393
+[rosmaster.master][INFO] 2021-10-06 20:09:28,390: -SERVICE [/base_controller_spawner/set_logger_level] /base_controller_spawner rosrpc://aidan:38393
+[rosmaster.master][INFO] 2021-10-06 20:09:28,456: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']
+[rosmaster.master][INFO] 2021-10-06 20:09:28,458: publisherUpdate[/rosout] -> http://aidan:33311/ ['http://aidan:33371/', 'http://aidan:44215/', 'http://aidan:34931/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-06 20:09:28,959: -PUB [/rosout_agg] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:09:28,960: -SUB [/clock] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:09:28,961: -SUB [/rosout] /rosout http://aidan:33311/
+[rosmaster.master][INFO] 2021-10-06 20:09:28,962: -SERVICE [/rosout/get_loggers] /rosout rosrpc://aidan:40359
+[rosmaster.master][INFO] 2021-10-06 20:09:28,963: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://aidan:40359
+[rosmaster.master][INFO] 2021-10-06 20:09:28,963: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-10-06 20:09:28,987: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-10-06 20:09:28,987: stopping master...
+[rospy.core][INFO] 2021-10-06 20:09:28,987: signal_shutdown [atexit]

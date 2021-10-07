@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2021-10-06 20:06:56,119: init_node, name[/spawn_Antbot_model], pid[3313]
+[xmlrpc][INFO] 2021-10-06 20:06:56,120: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-06 20:06:56,121: Started XML-RPC server [http://aidan:40241/]
+[rospy.init][INFO] 2021-10-06 20:06:56,122: ROS Slave URI: [http://aidan:40241/]
+[rospy.impl.masterslave][INFO] 2021-10-06 20:06:56,122: _ready: http://aidan:40241/
+[xmlrpc][INFO] 2021-10-06 20:06:56,123: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-10-06 20:06:56,123: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-10-06 20:06:56,222: registered with master
+[rospy.rosout][INFO] 2021-10-06 20:06:56,222: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-06 20:06:56,227: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-06 20:06:56,228: initializing /clock core topic
+[rospy.simtime][INFO] 2021-10-06 20:06:56,232: connected to core topic /clock
+[rosout][INFO] 2021-10-06 20:06:56,235: Loading model XML from ros parameter robot_description
+[rosout][INFO] 2021-10-06 20:06:56,250: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2021-10-06 20:06:56,434: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-06 20:06:56,739: topic[/clock] adding connection to [http://aidan:33371/], count 0
+[rosout][INFO] 2021-10-06 20:06:56,857: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2021-10-06 20:06:59,177: Spawn status: SpawnModel: Successfully spawned entity
+[rosout][INFO] 2021-10-06 20:06:59,179: Unpausing physics
+[rospy.core][INFO] 2021-10-06 20:06:59,188: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-10-06 20:06:59,192: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-06 20:06:59,192: topic[/clock] removing connection to http://aidan:33371/
+[rospy.internal][WARNING] 2021-10-06 20:06:59,194: Unknown error initiating TCP/IP socket to aidan:39489 (http://aidan:33371/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2021-10-06 20:06:59,194: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2021-10-06 20:06:59,195: atexit
