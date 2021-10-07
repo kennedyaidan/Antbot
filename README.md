@@ -10,7 +10,7 @@ My capstone project for this repository can be found here:
 # SLAM
 SLAM can be performed with:
 - Gmapping
-- Slam_toolbox
+- Slam_toolbox (TBD)
 
 
 # Autonomous Navigation
