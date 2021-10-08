@@ -1,0 +1,2 @@
+[0m[ INFO] [1633576015.377846456]: Loading nodelet /velodyne_nodelet_manager_laserscan of type velodyne_laserscan/LaserScanNodelet to manager velodyne_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1633576152.926040705, 1335.990000000]: Unloading nodelet /velodyne_nodelet_manager_laserscan from manager velodyne_nodelet_manager[0m

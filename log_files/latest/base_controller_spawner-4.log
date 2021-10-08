@@ -1,0 +1,39 @@
+[rospy.client][INFO] 2021-10-06 20:06:55,562: init_node, name[/base_controller_spawner], pid[3300]
+[xmlrpc][INFO] 2021-10-06 20:06:55,563: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-06 20:06:55,564: Started XML-RPC server [http://aidan:43351/]
+[rospy.init][INFO] 2021-10-06 20:06:55,564: ROS Slave URI: [http://aidan:43351/]
+[rospy.impl.masterslave][INFO] 2021-10-06 20:06:55,564: _ready: http://aidan:43351/
+[xmlrpc][INFO] 2021-10-06 20:06:55,565: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-10-06 20:06:55,566: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-10-06 20:06:55,664: registered with master
+[rospy.rosout][INFO] 2021-10-06 20:06:55,665: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-06 20:06:55,669: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-06 20:06:55,671: initializing /clock core topic
+[rospy.simtime][INFO] 2021-10-06 20:06:55,675: connected to core topic /clock
+[rosout][INFO] 2021-10-06 20:06:55,679: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2021-10-06 20:06:55,911: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-06 20:06:56,703: topic[/clock] adding connection to [http://aidan:33371/], count 0
+[rosout][INFO] 2021-10-06 20:06:59,607: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2021-10-06 20:06:59,612: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2021-10-06 20:06:59,617: Loading controller: trog_joint_publisher
+[rosout][INFO] 2021-10-06 20:06:59,751: Loading controller: trog_velocity_controller
+[rosout][INFO] 2021-10-06 20:06:59,831: Controller Spawner: Loaded controllers: trog_joint_publisher, trog_velocity_controller
+[rosout][INFO] 2021-10-06 20:06:59,841: Started controllers: trog_joint_publisher, trog_velocity_controller
+[rospy.core][INFO] 2021-10-06 20:09:13,326: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-06 20:09:13,327: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2021-10-06 20:09:13,329: Stopping all controllers...
+[rosout][INFO] 2021-10-06 20:09:13,335: Unloading all loaded controllers...
+[rosout][INFO] 2021-10-06 20:09:13,337: Trying to unload trog_velocity_controller
+[rospy.core][INFO] 2021-10-06 20:09:28,382: signal_shutdown [signal-15]
+[rospy.internal][ERROR] 2021-10-06 20:09:28,383: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rosout][WARNING] 2021-10-06 20:09:28,384: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+[rospy.internal][INFO] 2021-10-06 20:09:28,391: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-06 20:09:28,392: topic[/clock] removing connection to http://aidan:33371/
+[rospy.impl.masterslave][INFO] 2021-10-06 20:09:28,392: signal-2
+[rospy.core][INFO] 2021-10-06 20:09:28,556: signal_shutdown [atexit]
