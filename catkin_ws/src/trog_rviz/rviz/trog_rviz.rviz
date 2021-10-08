@@ -29,7 +29,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: PointCloud2
+    SyncSource: LaserScan
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -70,7 +70,7 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 100
+      Max Intensity: 101
       Min Color: 0; 0; 0
       Min Intensity: 1
       Name: LaserScan
@@ -126,73 +126,19 @@ Visualization Manager:
       Use rainbow: true
       Value: false
     - Class: rviz/TF
-      Enabled: true
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: false
-        base_footprint:
-          Value: false
-        base_link:
-          Value: false
-        front_left_wheel_link:
-          Value: false
-        front_right_wheel_link:
-          Value: false
-        inertial_link:
-          Value: false
-        laser:
-          Value: true
-        map:
-          Value: false
-        odom:
-          Value: false
-        rear_left_wheel_link:
-          Value: false
-        rear_right_wheel_link:
-          Value: false
-        top_plate_front_link:
-          Value: false
-        top_plate_link:
-          Value: false
-        top_plate_rear_link:
-          Value: false
-        velodyne:
-          Value: false
-        velodyne_base_link:
-          Value: false
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
-        map:
-          odom:
-            base_link:
-              base_footprint:
-                {}
-              front_left_wheel_link:
-                {}
-              front_right_wheel_link:
-                {}
-              inertial_link:
-                {}
-              laser:
-                {}
-              rear_left_wheel_link:
-                {}
-              rear_right_wheel_link:
-                {}
-              top_plate_link:
-                top_plate_front_link:
-                  {}
-                top_plate_rear_link:
-                  {}
-              velodyne_base_link:
-                velodyne:
-                  {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
     - Class: rviz/Group
       Displays:
         - Alpha: 0.699999988079071
@@ -367,9 +313,9 @@ Visualization Manager:
       Head Length: 0.07000000029802322
       Head Radius: 0.029999999329447746
       Name: PoseArray
-      Shaft Length: 0.23000000417232513
+      Shaft Length: 0.10000000149011612
       Shaft Radius: 0.009999999776482582
-      Shape: Arrow (Flat)
+      Shape: Arrow (3D)
       Topic: /particlecloud
       Unreliable: false
       Value: true
@@ -488,25 +434,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 8.572797775268555
+      Distance: 7.592337131500244
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -3.693418025970459
-        Y: 2.5053999423980713
-        Z: 1.027532696723938
+        X: -1.5119415521621704
+        Y: 2.2889888286590576
+        Z: -0.6420155763626099
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.5697963237762451
+      Pitch: 0.50479656457901
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.12404815107584
+      Yaw: 0.672227680683136
     Saved: ~
 Window Geometry:
   Displays:

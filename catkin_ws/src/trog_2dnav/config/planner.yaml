@@ -94,7 +94,7 @@ TebLocalPlannerROS:
   free_goal_vel: False
   complete_global_plan: True
   # Obstacles
-  min_obstacle_dist: 0.8 # This value must include robot radius, as footprint_model is "point".
+  min_obstacle_dist: 0.6 # This value must include robot radius, as footprint_model is "point".
   inflation_dist: 0.6
   include_costmap_obstacles: True
   costmap_obstacles_behind_robot_dist: 1.5
