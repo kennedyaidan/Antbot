@@ -2,7 +2,7 @@
 
 
 # Documentation
-My capstone project for this repository can be found here: kennedyaidan/Antbot/CapstoneProject.pdf
+My capstone project for this repository can be found here: kennedyaidan/Antbot/Masters_Project.pdf
 - 
 
 
