@@ -2,15 +2,15 @@
 
 
 # Documentation
-My capstone project for this repository can be found here:
+My capstone project for this repository can be found here: kennedyaidan/Antbot/CapstoneProject.pdf
 - 
 
 
 
 # SLAM
 SLAM can be performed with:
-- Gmapping
-- Slam_toolbox (TBD)
+- Cartographer (default)
+- GMapping
 
 
 # Autonomous Navigation
